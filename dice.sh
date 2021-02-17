@@ -70,7 +70,7 @@ echo "min:" $min $min_number
 
 
 
-
+#!/bin/bash
 declare -A record
 JanCount=0
 FebCount=0
@@ -139,5 +139,3 @@ do
 done
 echo ${!record[@]}
 echo ${record[@]}
-#!/bin/bash
-
